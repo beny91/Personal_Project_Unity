@@ -1,0 +1,22 @@
+﻿
+
+public enum eAcotrState
+{
+	STATE_IDLE,
+	STATE_MOVE,
+	STATE_RUN,
+	STATE_ATTACK,
+	STATE_GUARD,
+	STATE_DODGE,
+	STATE_HIT,
+	STATE_JUMP,
+	STATE_DIE,
+}
+
+public enum eAttackCombo
+{
+	COMBO_1,
+	COMBO_2,
+	COMBO_3,
+	COMBO_MAX
+}
