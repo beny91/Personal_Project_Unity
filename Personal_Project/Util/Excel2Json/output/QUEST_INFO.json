@@ -1,0 +1,28 @@
+{
+	"QUEST_INFO": {
+		"1": {
+			"QUEST_TYPE": 1,
+			"QUEST_TARGET": "STAGE_1",
+			"COUNT": 0,
+			"SCRIPT": "TARGET으로 가라"
+		},
+		"2": {
+			"QUEST_TYPE": 2,
+			"QUEST_TARGET": "MONSTER_1",
+			"COUNT": 5,
+			"SCRIPT": "MONSTER_1을 처치하라"
+		},
+		"3": {
+			"QUEST_TYPE": 3,
+			"QUEST_TARGET": "KEY",
+			"COUNT": 1,
+			"SCRIPT": "KEY를 찾아라"
+		},
+		"4": {
+			"QUEST_TYPE": 4,
+			"QUEST_TARGET": "sadfljk",
+			"COUNT": 10,
+			"SCRIPT": "퀘스트가 없습니다."
+		}
+	}
+}

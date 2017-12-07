@@ -1,0 +1,121 @@
+{
+	"ITEM_INFO": {
+		"1": {
+			"NAME": "검",
+			"SLOT_TYPE": 0,
+			"ITEM_TYPE": 1,
+			"MAX_HP": 0,
+			"ATTACK": 10,
+			"DEFENCE": 0,
+			"MAX_STAMINA": 0
+		},
+		"2": {
+			"NAME": "활",
+			"SLOT_TYPE": 0,
+			"ITEM_TYPE": 2,
+			"MAX_HP": 0,
+			"ATTACK": 20,
+			"DEFENCE": 0,
+			"MAX_STAMINA": 0
+		},
+		"4": {
+			"NAME": "갑일",
+			"SLOT_TYPE": 1,
+			"ITEM_TYPE": 3,
+			"MAX_HP": 10,
+			"ATTACK": 0,
+			"DEFENCE": 30,
+			"MAX_STAMINA": 0
+		},
+		"5": {
+			"NAME": "갑이",
+			"SLOT_TYPE": 1,
+			"ITEM_TYPE": 3,
+			"MAX_HP": 20,
+			"ATTACK": 0,
+			"DEFENCE": 40,
+			"MAX_STAMINA": 0
+		},
+		"6": {
+			"NAME": "갑삼",
+			"SLOT_TYPE": 1,
+			"ITEM_TYPE": 3,
+			"MAX_HP": 30,
+			"ATTACK": 0,
+			"DEFENCE": 50,
+			"MAX_STAMINA": 0
+		},
+		"7": {
+			"NAME": "목걸이",
+			"SLOT_TYPE": 2,
+			"ITEM_TYPE": 4,
+			"MAX_HP": 0,
+			"ATTACK": 0,
+			"DEFENCE": 5,
+			"MAX_STAMINA": 0
+		},
+		"8": {
+			"NAME": "반지",
+			"SLOT_TYPE": 2,
+			"ITEM_TYPE": 5,
+			"MAX_HP": 0,
+			"ATTACK": 0,
+			"DEFENCE": 10,
+			"MAX_STAMINA": 0
+		},
+		"9": {
+			"NAME": "팔찌",
+			"SLOT_TYPE": 2,
+			"ITEM_TYPE": 6,
+			"MAX_HP": 0,
+			"ATTACK": 0,
+			"DEFENCE": 15,
+			"MAX_STAMINA": 0
+		},
+		"10": {
+			"NAME": "POTION_HP",
+			"SLOT_TYPE": 3,
+			"ITEM_TYPE": 7,
+			"MAX_HP": 50,
+			"ATTACK": 0,
+			"DEFENCE": 0,
+			"MAX_STAMINA": 0
+		},
+		"11": {
+			"NAME": "POTION_STAMINA",
+			"SLOT_TYPE": 3,
+			"ITEM_TYPE": 8,
+			"MAX_HP": 0,
+			"ATTACK": 0,
+			"DEFENCE": 0,
+			"MAX_STAMINA": 50
+		},
+		"12": {
+			"NAME": "BRANCH",
+			"SLOT_TYPE": 4,
+			"ITEM_TYPE": 9,
+			"MAX_HP": 0,
+			"ATTACK": 0,
+			"DEFENCE": 0,
+			"MAX_STAMINA": 0
+		},
+		"13": {
+			"NAME": "STON",
+			"SLOT_TYPE": 4,
+			"ITEM_TYPE": 9,
+			"MAX_HP": 0,
+			"ATTACK": 0,
+			"DEFENCE": 0,
+			"MAX_STAMINA": 0
+		},
+		"14": {
+			"NAME": "ARROW",
+			"SLOT_TYPE": 4,
+			"ITEM_TYPE": 9,
+			"MAX_HP": 0,
+			"ATTACK": 0,
+			"DEFENCE": 0,
+			"MAX_STAMINA": 0
+		}
+	}
+}

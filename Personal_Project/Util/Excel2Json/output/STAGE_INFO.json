@@ -1,0 +1,16 @@
+{
+	"STAGE_INFO": {
+		"1": {
+			"NAME": "1-1",
+			"MAP_MODEL": "Plane",
+			"CLEAR_TYPE": 0,
+			"CLEAR_FINISH": 6
+		},
+		"2": {
+			"NAME": "1-2",
+			"MAP_MODEL": "Plane",
+			"CLEAR_TYPE": 1,
+			"CLEAR_FINISH": 180
+		}
+	}
+}

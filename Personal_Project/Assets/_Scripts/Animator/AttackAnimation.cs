@@ -5,26 +5,37 @@ using UnityEngine;
 public class AttackAnimation : StateMachineBehaviour {
 
 	Actor targetActor = null;
-	bool bAttack;
+    bool bIsAttack = false;
 
 	public override void OnStateEnter(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
 	{
 		targetActor = animator.GetComponent<Actor>();
-		bAttack = true;
+
+        if(targetActor != null && targetActor.AI.CurrentAIState == eAIStateType.AI_STATE_ATTACK)
+        {
+            targetActor.AI.IsAttack = true;
+            bIsAttack = false;
+        }
+
 	}
 
 	public override void OnStateUpdate(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
 	{
-		if (targetActor != null && animatorStateInfo.normalizedTime >= 1f)
+		if (targetActor.AI.IsAttack && animatorStateInfo.normalizedTime >= 1f)
 		{
-			targetActor.CURRENTSTATE = eAcotrState.STATE_IDLE;
-			targetActor.ChangeAnimator(targetActor.CURRENTSTATE);
-			bAttack = false;
+			if( targetActor.AI.CurrentAIState == eAIStateType.AI_STATE_ATTACK)
+            {
+                targetActor.AI.IsAttack = false;
+            }
 		}
-		else
-		{
-			
-		}
+
+        if(bIsAttack == false && animatorStateInfo.normalizedTime >= 0.5f)
+        {
+            bIsAttack = true;
+            targetActor.RunSkill();
+        }
+		
+
 
 		
 	}
